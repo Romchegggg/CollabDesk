@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:labelFor="@id/et_name"
+        android:text="@string/enter_login" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:ems="10"
+        android:inputType="text"
+        android:autofillHints="Login"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:labelFor="@id/et_pass"
+        android:text="@string/enter_password"/>
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:autofillHints="Password"
+        android:ems="10"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="240dp"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="240dp"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="@string/sign" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60" />
+</LinearLayout>

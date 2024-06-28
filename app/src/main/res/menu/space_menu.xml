@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_object"
+        android:enabled="true"
+        android:icon="@drawable/ic_add_comp_foreground"
+        android:title="@string/add_component"/>
+    <item
+        android:id="@+id/del_object"
+        android:enabled="true"
+        android:icon="@drawable/baseline_delete_forever_24"
+        android:title="@string/delete_component"/>
+
+
+</menu>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CollabDesk</string>
+    <string name="sign">Sign</string>
+    <string name="login">Login</string>
+    <string name="enter_login">Enter Login</string>
+    <string name="enter_password">Enter password</string>
+    <string name="add_component">Add component</string>
+    <string name="out">out</string>
+    <string name="draw">Draw</string>
+    <string name="pictutre">Picture</string>
+    <string name="picutre">Picture</string>
+    <string name="Text">Text</string>
+    <string name="text">Text</string>
+    <string name="delete_component">Delete component</string>
+</resources>

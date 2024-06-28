@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "864338449644",
+    "firebase_url": "https://collabdesk-f56cc-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "collabdesk-f56cc",
+    "storage_bucket": "collabdesk-f56cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864338449644:android:c8dd70952ce080736d81c9",
+        "android_client_info": {
+          "package_name": "com.example.collabdesk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJTF458C7Ilv2eokWfCtw09Pg1fNxbD64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
